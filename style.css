@@ -6,46 +6,61 @@ body{
     padding:0;
 }
 
-.containter{
-    max-width: 400px;
-    min-width: 400px;
+.card.rounded.my-3.shadow-lg.back-card{
+    max-width: 600px;
+    min-width: 600px;
 }
-.title{
-    font-weight: 700;
+
+.containter.my-5{
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+    min-width: 600px;
+    inset: 0;
+}
+
+.text-center-title{
+    width:400px;
+    height: 100px;
+    text-align: center;
+    font-weight: 700; 
     font-size: 50px;
 }
-.form-rounded{
-    border-radius: 2em;
-}
-.back-card{
-    border-radius: 40px;
-}
-.city-name {
-    position:absolute;
-    width:100px;
-}
-.city-name p{
-    font-size: 16pt;
-    font-weight: 400;
-}
-.city-name span{
-    font-weight: 400;
-    font-size: 36pt;
-    font-family:'Times New Roman', Times, serif;
-    position: relative;
-    top:-60px;
-}
-.temp span{
-    font-weight: 100;
-    font-size: 5em;
-    letter-spacing: -5px;
-    white-space: nowrap;
-}
-.card-mid{
-    line-height: 0.5;
 
+.city-name.my-3{
+    
+    position:center;
+    font-weight: 400;
+    font-size: 36px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top:60px;
 }
-.condition{
+.card-body{
+    width: 400px;
+}
+
+.search-location{
+    width: 600px;
+    height: 100px;
+    align-self: self-start;
+}
+
+.card-mid.row{
+    width: 600px;
+}
+
+.col-4.condition-temp p{
+    align-content: end;
+}
+
+.icon-container.card.shadow{
+    position:relative;
+    width: 78px;
+    height: 78px;
     
 
 }
+
+
+
+
