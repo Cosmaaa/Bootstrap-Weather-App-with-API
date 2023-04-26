@@ -12,6 +12,7 @@ body{
 }
 
 .containter.my-5{
+    display: flex;
     margin: 0;
     padding: 0;
     max-width: 600px;
@@ -28,25 +29,26 @@ body{
 }
 
 .city-name.my-3{
-    
     position:center;
     font-weight: 400;
     font-size: 36px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     top:60px;
+
 }
 .card-body{
     width: 598.4px;
 }
 
 .search-location{
+    display: flex;
     width: 600px;
     height: 100px;
-    align-self: self-start;
+    align-self: center;
 }
 
 .card-mid.row{
-    width: 590.4    px;
+    width: 590.4px;
 }
 
 .col-4.condition-temp p{
@@ -54,21 +56,18 @@ body{
 }
 
 .icon-container.card.shadow{
-    display:flex;
+    position: relative;
+
+    margin: auto;
     width: 39px;
-    height:39px; 
-    flex-direction: row;
-    flex-wrap: nowrap;1
-      
-    
-   
+    height:39px;   
 }
 
 .col-8.text-center.temp{
+
     display:flex;
     justify-content:center;
     width: 320px;
-    
 }
 
 .col.text-center2 p{
@@ -83,6 +82,30 @@ body{
     top:-60px;
 }
 .col-8.text-center.temp span{
+    font-weight: 100;
+    font-size:40px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: -5px;
+    white-space: nowrap;
+}
+
+.col-4.condition-temp p{
+    font-weight: 100;
+    font-size:40px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: -5px;
+    white-space: nowrap;
+}
+
+.col.text-center1{
+    font-weight: 100;
+    font-size:40px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: -5px;
+    white-space: nowrap;
+}
+
+.col.text-center2{
     font-weight: 100;
     font-size:40px;
     font-family: 'Times New Roman', Times, serif;
